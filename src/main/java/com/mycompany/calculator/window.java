@@ -246,7 +246,7 @@ public class window extends JFrame implements ActionListener {
           
          double number1 = Double.parseDouble(nums[0]);
          double number2 = Double.parseDouble(nums[1]);
-         double answer = number1 - number2;
+         double answer = number1 * number2;
           
           texts.setText((String.valueOf(answer)));
           alltext = String.valueOf(answer);
